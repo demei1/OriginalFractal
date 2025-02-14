@@ -13,11 +13,11 @@ public void draw(){
  if (colorChange == true){
    fill(255);
    rect(0,0,1600,1600);
-   myFractal(400,400,500, colorR, colorG, colorB);
+   myFractal(400,400,650, colorR, colorG, colorB);
  }
  else
   fill(250,182,216);
-  myFractal(400,400,500, colorR, colorG, colorB);
+  myFractal(400,400,650, colorR, colorG, colorB);
 }
 public void mousePressed()//optional
 {
